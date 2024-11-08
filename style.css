@@ -91,6 +91,11 @@ body {
   text-decoration: underline;
 }
 
+.github-icon {
+  color: #000000;
+}
+
+
 /* Card Left Section */
 .card-left {
   background: linear-gradient(to bottom, #4c8bf5, #367dff);
