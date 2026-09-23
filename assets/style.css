@@ -332,10 +332,6 @@ a:hover {
 .card-meta {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-family: var(--mono);
-  font-size: 0.8rem;
-  color: var(--muted);
 }
 
 .badge {

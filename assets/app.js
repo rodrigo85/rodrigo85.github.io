@@ -67,10 +67,8 @@
     grid.replaceChildren(
       ...visible.map((p) => {
         const node = template.content.firstElementChild.cloneNode(true);
-        const year = node.querySelector(".year");
-        year.textContent = p.year;
-        year.dateTime = String(p.year);
-        if (p.isNew) node.querySelector(".badge-new").hidden = false;
+        // Only the newest project carries a badge; other cards drop the meta row entirely
+        if (!p.isNew) node.querySelector(".card-meta").remove();
 
         const link = node.querySelector(".card-link");
         link.href = p.url;
