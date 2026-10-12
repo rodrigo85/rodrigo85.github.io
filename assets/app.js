@@ -67,7 +67,7 @@
     grid.replaceChildren(
       ...visible.map((p) => {
         const node = template.content.firstElementChild.cloneNode(true);
-        // Only the newest project carries a badge; other cards drop the meta row entirely
+        // Only projects flagged isNew carry a badge; other cards drop the meta row entirely
         if (!p.isNew) node.querySelector(".card-meta").remove();
 
         const link = node.querySelector(".card-link");

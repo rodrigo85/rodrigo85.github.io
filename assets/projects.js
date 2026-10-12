@@ -2,6 +2,16 @@
 // areas: one or more of "AI & LLMs", "Data pipelines", "Streaming", "Analytics".
 window.PROJECTS = [
   {
+    title: "Event-Driven Ingestion with Dynamic Autoscaling",
+    year: 2026,
+    isNew: true,
+    areas: ["Data pipelines", "Streaming"],
+    description:
+      "Zero-cost simulation of a cloud ingestion pipeline that reacts on its own to a daily load peak: the SQS queue fills up, KEDA scales consumer pods out, Karpenter adds nodes when pods go Pending, and everything scales back in once the backlog drains. Synthetic TPC-H data aggregated with DuckDB into Parquet, monitored in Grafana.",
+    tags: ["Kubernetes", "KEDA", "Karpenter", "SQS", "S3", "LocalStack", "DuckDB", "Terraform", "Prometheus", "Grafana"],
+    url: "https://github.com/rodrigo85/scaling",
+  },
+  {
     title: "Self-Correcting Legal RAG with LangGraph",
     year: 2026,
     isNew: true,
