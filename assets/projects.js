@@ -2,6 +2,16 @@
 // areas: one or more of "AI & LLMs", "Data pipelines", "Streaming", "Analytics".
 window.PROJECTS = [
   {
+    title: "GCP Mobility Data Platform: batch and streaming on BigQuery",
+    year: 2026,
+    isNew: true,
+    areas: ["Data pipelines", "Streaming", "Analytics"],
+    description:
+      "An Uber/Lyft-style mobility platform on Google Cloud: six months of NYC taxi data (24.1M trips) normalized by PySpark, plus a real-time ride simulator streamed through Pub/Sub and Apache Beam. Both land in BigQuery, where dbt builds tested silver, gold and KPI marts, orchestrated by Airflow. Runs on a real GCP project under a hard BRL 100 cost cap, with Terraform, CI and data quality findings documented.",
+    tags: ["BigQuery", "dbt", "Apache Beam", "Pub/Sub", "PySpark", "Airflow", "Terraform", "GCP"],
+    url: "https://github.com/rodrigo85/gcp-mobility-data-platform",
+  },
+  {
     title: "Event-Driven Ingestion with Dynamic Autoscaling",
     year: 2026,
     isNew: true,
