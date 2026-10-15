@@ -58,15 +58,6 @@ window.PROJECTS = [
     url: "https://github.com/rodrigo85/databricks_delta_table",
   },
   {
-    title: "Salary data cleaning and wrangling with Pandas",
-    year: 2024,
-    areas: ["Analytics"],
-    description:
-      "Cleaning and analysis of salary data: missing values, outliers, currency conversion and industry categorisation with sentence embeddings.",
-    tags: ["Pandas", "Jupyter", "Sentence Transformers", "scikit-learn"],
-    url: "https://github.com/rodrigo85/python_pandas_data_wrangling",
-  },
-  {
     title: "Real-time stock order matching with Kafka",
     year: 2024,
     areas: ["Streaming"],
